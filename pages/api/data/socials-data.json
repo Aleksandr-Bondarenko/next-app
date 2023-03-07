@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "icon": "youtube",
+    "path": "https://www.youtube.com/channel/UCRWamR8lVQ-pMD9knwYyAZA"
+  },
+  {
+    "id": 2,
+    "icon": "telegram",
+    "path": "https://t.me/bond_1990"
+  },
+  {
+    "id": 3,
+    "icon": "linkedin",
+    "path": "https://www.linkedin.com/in/aleksandr-bondarenko-salute"
+  },
+  {
+    "id": 4,
+    "icon": "github",
+    "path": "https://github.com/Aleksandr-Bondarenko"
+  },
+  {
+    "id": 5,
+    "icon": "google",
+    "path": "bondarenko1990aa@gmail.com"
+  }
+]
