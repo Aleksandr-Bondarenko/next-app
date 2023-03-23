@@ -3,6 +3,13 @@
     padding: 20px;
     text-align: center;
     border-top: 1px solid brown;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    &.withScroll {
+        position: static;
+    }
 }
 
 .text {

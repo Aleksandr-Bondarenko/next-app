@@ -1,0 +1,23 @@
+.list {
+    // list-style: none;
+    padding-left: 48px;
+    overflow: hidden;
+}
+
+.item {
+    margin-bottom: 10px;
+    transform-origin: left;
+    transition: transform linear 280ms;
+
+    &:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &::marker {
+        font-weight: bold;
+    }
+}

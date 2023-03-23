@@ -26,8 +26,8 @@ ul {
   list-style: none;
 }
 
-main {
-  min-height: calc(100vh - 87px - 74px );
+.heading {
+  text-align: center;
 }
 
 .home-page {
@@ -37,13 +37,33 @@ main {
 
 .home-page .heading {
   display: inline-block;
+  padding-bottom: 6px;
   background-image: linear-gradient(to right, #ff0000, #fff200, #1e9600);
   background-size: 0% 3px;
   background-position: left bottom;
   background-repeat: no-repeat;
   transition: background-size 400ms;
+
+  &:hover {
+    background-size: 100% 3px;
+  }
 }
 
-.home-page .heading:hover {
-  background-size: 100% 3px;
+.container {
+  padding: 94px 16px 0;
+}
+
+
+// scrollbar styled
+::-webkit-scrollbar {
+  width: 8px
+}
+
+::-webkit-scrollbar-track {
+  border-left: 1px solid brown;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: brown;
+  border-radius: 10px;
 }

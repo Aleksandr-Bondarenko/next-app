@@ -10,7 +10,7 @@ const HomePage = ({ socials }) => {
       </Head>
       <main className="home-page">
         <Heading content="Next.js application" />
-        <SocialsList className="" socials={socials} />
+        <SocialsList socials={socials} />
       </main>
     </>
   );
@@ -20,7 +20,7 @@ export default HomePage;
 
 export const getStaticProps = async () => {
   try {
-    const res = await fetch(`${process.env.API_HOST}/api/socials`);
+    const res = await fetch(`${process.env.API_HOST}/socials`);
     const data = await res.json();
 
     if (!data) {

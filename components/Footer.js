@@ -1,8 +1,9 @@
-import styles from "../styles/Footer.module.css";
+import styles from "../styles/Footer.module.scss";
 
-const Footer = () => {
+const Footer = ({ isScrollBarShow }) => {
+  const classes = `${styles.footer} ${isScrollBarShow && styles.withScroll}`;
   return (
-    <footer className={styles.footer}>
+    <footer className={classes}>
       <p className={styles.text}>CREATED BY A.BONDARENKO</p>
     </footer>
   );
